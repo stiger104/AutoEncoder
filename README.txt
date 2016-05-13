@@ -18,6 +18,10 @@ make
 
 This lib rely on C++ Boost lib and gtest lib, so make sure you have installed them.
 
+The input data format is from the Liblinear data format
+http://www.csie.ntu.edu.tw/~cjlin/liblinear/
+
+you can see examples in the data folder
 
 # train the model
 
