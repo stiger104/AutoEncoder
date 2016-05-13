@@ -1,3 +1,23 @@
+This is a c++ wrapper for https://github.com/yusugomori/DeepLearning.git
+
+Using this wrapper, you can train/save/load the model, and the model is saved as a standard json.
+you can also get the hidden layer output for your next prediction module such as LR/BPR 
+
+The denoising auto-encoder is a stochastic version of the auto-encoder. Intuitively, a denoising auto-encoder does two things: 
+try to encode the input (preserve the information about the input), and try to undo the effect of a corruption process stochastically
+applied to the input of the auto-encoder. The latter can only be done by capturing the statistical dependencies between the inputs.
+
+
+More details here: http://deeplearning.net/tutorial/dA.html#da
+
+How to use:
+
+cd build
+cmake ../
+make
+
+This lib rely on C++ Boost lib and gtest lib, so make sure you have installed them.
+
 
 # train the model
 
