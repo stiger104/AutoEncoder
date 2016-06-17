@@ -9,7 +9,7 @@
 
 class deAutoEncoder {
 
-    public:
+    private:
         int N;
         int n_visible;
         int n_hidden;
@@ -29,7 +29,6 @@ class deAutoEncoder {
                        double corruption_level,
                        int epoch_num);
 
-    public:
         void get_corrupted_input(int* x, int* tilde_x, double p);
         void get_hidden_values(int* x, double* y);
         void get_reconstructed_input(double* y, double* z);
