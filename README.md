@@ -14,8 +14,7 @@ applied to the input of the auto-encoder. The latter can only be done by capturi
 
 More details here: http://deeplearning.net/tutorial/dA.html#da
 
-How to use:
-
+#How to use:
 cd build
 cmake ../
 make
