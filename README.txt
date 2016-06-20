@@ -1,5 +1,4 @@
-This is a c++ wrapper for denosing auto-encoders. You can combine the single layer auto encoder to a multi layer version using 
-some pre-train algorithms( Stacked Auto Encoders)
+This is a c++ wrapper for denosing auto-encoders. You can combine the single layer auto encoder to a multi layer version using some pre-train algorithms( Stacked Auto Encoders)
 
 Wiki : http://deeplearning.stanford.edu/wiki/index.php/Autoencoders_and_Sparsity
 
