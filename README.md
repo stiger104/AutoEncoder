@@ -4,7 +4,7 @@ This is a c++ wrapper for denosing auto-encoders. You can combine the single lay
 
 Wiki : http://deeplearning.stanford.edu/wiki/index.php/Autoencoders_and_Sparsity
 
-Using this wrapper, you can train/save/load the model, and the model is saved as a standard json.
+Using this wrapper, you can train/save/load the model, and the model is saved as ###a standard json###.
 you can also get the hidden layer output for your next prediction module such as LR/BPR 
 
 The denoising auto-encoder is a stochastic version of the auto-encoder. Intuitively, a denoising auto-encoder does two things: 
