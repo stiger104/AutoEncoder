@@ -1,4 +1,7 @@
-This is a c++ wrapper for https://github.com/yusugomori/DeepLearning.git
+This is a c++ wrapper for denosing auto-encoders. You can combine the single layer auto encoder to a multi layer version using 
+some pre-train algorithms( Stacked Auto Encoders)
+
+http://www.jdon.com/simgs/bigdata/mlb.png
 
 Using this wrapper, you can train/save/load the model, and the model is saved as a standard json.
 you can also get the hidden layer output for your next prediction module such as LR/BPR 
